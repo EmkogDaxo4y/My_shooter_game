@@ -94,7 +94,7 @@ while game:
             if e.key == K_SPACE:
                 rocket.fite()
     if finish != True:
-        text_lose = font1.render('пропущено: ' + str(lost),1,(255, 255, 255))
+        text_lose = font1.render('Пропущено: ' + str(lost),1,(255, 255, 255))
         text_score = font1.render('Счет: ' + str(score),1,(255, 255, 255))
         window.blit(background, (0, 0))
         window.blit(text_lose, (20,20))
